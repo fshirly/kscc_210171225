@@ -131,7 +131,7 @@ define(["base","datatables.net"],function(base,DataTable){
 		            		   setImageUpload();
                                var imgOldStr="<div class='form-group'>"+
                                    "<label class='text-center' style='margin-left:14px;'>图片:</label>"+
-                                   "<img src='' id='pictureView' style='width:120px;height:120px;' />"+
+                                   "<img src='' id='pictureView' style='width:120px;height:70px;' />"+
                                    "</div>";
                                $("#uploadPic").before(imgOldStr);
 		            		   if(baseParams.pictureName){
